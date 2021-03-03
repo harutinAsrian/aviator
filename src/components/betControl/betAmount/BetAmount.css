@@ -1,71 +1,69 @@
 .BetAmount {
-
 }
 
 .amount__display {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
 
-    background-color: #060606;
-    border: 1px solid #3c3c42;
-    border-radius: 25px;
-    color: white;
+  background-color: #060606;
+  border: 1px solid #3c3c42;
+  border-radius: 25px;
+  color: white;
 
-    font-family: Roboto,sans-serif;
-    font-weight: 700;
-    font-size: 22px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
 
-    padding: 4px 10px;
+  padding: 6px 10px;
 }
 
 .amount__display span {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .amount__actions {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .amount__actions i {
-    font-size: 17px;
-    color: #767B85;
-    margin-left: 2px;
+  font-size: 17px;
+  color: #767b85;
+  margin-left: 2px;
 }
 
 .amount__buttons {
-    width: 140px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  width: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .amount__buttons-item {
-    font-size: 14px;
-    width: 64px;
-    height: 18px;
-    margin-top: 4px;
-    line-height: 1;
-    padding-top: 2px;
+  font-size: 14px;
+  width: 68px;
+  margin-top: 4px;
+  line-height: 1;
+  padding-top: 2px;
 
-    border: 1px solid #36363c;
-    border-radius: 100px;
-    background-color: #252528;
-    color: #83878e;
-    text-align: center;
-    box-shadow: none;
-    cursor: pointer;
-    transition: all 0.2s ease;
+  border: 1px solid #36363c;
+  border-radius: 100px;
+  background-color: #252528;
+  color: #83878e;
+  text-align: center;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
 
-    font-weight: 700;
-    position: relative;
-    top: 0;
+  font-weight: 700;
+  position: relative;
+  top: 0;
 }
 
 .amount__buttons-item:hover {
-    background-color: #36363c;
+  background-color: #36363c;
 }
 .amount__buttons-item:active {
-    top: 1px;
+  top: 1px;
 }

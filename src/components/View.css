@@ -1,9 +1,23 @@
-.View {
-    height: 100vh;
-    margin: 0 auto;
-    padding-top: 37px;
+.view {
+  margin: 0 auto;
+  padding-top: 37px;
 
-    max-width: 800px;
-    display: flex;
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+.view__game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75vw;
+}
+.bet-control-container {
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .view {
     flex-direction: column;
-}   
+  }
+}

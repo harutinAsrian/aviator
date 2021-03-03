@@ -1,0 +1,13 @@
+.auto {
+  display: flex;
+  width: 100%;
+  margin: auto auto 5px;
+  max-width: 390px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 20px;
+  background: #111215;
+  color: white;
+  margin: 10px 0;
+}

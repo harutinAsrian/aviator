@@ -1,0 +1,12 @@
+.History {
+  height: 5vh;
+  flex: 1;
+  display: inline-block;
+  /* background-color: green; */
+}
+
+@media (min-width: 992px) {
+  .History {
+    min-width: 320px !important;
+  }
+}
