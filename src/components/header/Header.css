@@ -1,0 +1,31 @@
+.Header {
+    height: 37px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+
+    position: fixed;
+}
+
+.header__logo {
+    width: 78px;
+}
+.header__logo img {
+    width: 100%;
+}
+
+.header__total-coin {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #9b9c9e;
+    border: 1px solid #2a2b2e;
+    border-radius: 20px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
